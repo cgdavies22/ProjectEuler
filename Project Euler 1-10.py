@@ -136,4 +136,4 @@ for f in range(3, 2000000):
     x = sum([f % p > 0 for p in primes])
     if x == len(primes):
         primes.append(f)
-print('7)', sum(primes))
+print('10)', sum(primes))
